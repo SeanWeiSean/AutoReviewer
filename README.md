@@ -31,9 +31,9 @@ Download #[nodejs](https://nodejs.org/en/download/)
 ```bash
    npm init
 ```
-　　Press Enter to accept the defaults for all of the options except the entry point. Change it to app.js
+　　Press Enter to accept the defaults for all of the options except the entry point. Change it to autoReviewer.js
 ```bash
-    entry point: (index.js) app.js
+    entry point: (index.js) autoReviewer.js
 ```
 3) Install Express in the pr-server directory using the following command.
 ```bash
@@ -41,13 +41,13 @@ Download #[nodejs](https://nodejs.org/en/download/)
 ```
 4) Replace the project URL and token with your own RepoUrl and Token.
 ![](https://github.com/SeanWeiSean/PullRequestTools/blob/master/URL3.jpg?raw=true)
-5) Replace the app.js with our project then run it.
+5) Replace the autoReviewer.js with our project then run it.
 ```bash
    npm install body-parser
    npm install azure-devops-node-api
    npm i nodemailer
    npm i shelljs
-   node app.js
+   node autoReviewer.js
 ```
 6) You shall have cmd show as below
 ![](https://github.com/SeanWeiSean/PullRequestTools/blob/master/url4.png?raw=true)  
