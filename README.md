@@ -58,7 +58,8 @@ Web Hook Deployment in DevOps
 1) Click the DevOps as the picture's instruction.
 3) Then we choose **Web Hook** options.  
 3) Select **Pull request created from the list of event** triggers, then select **Next**.
-4) In the Action page, enter the ***URL:port*** your tools listening. Select Test to send a test event to your server.
+4) In the Action page, enter the ***URL:port*** your tools listening. Select Test to send a test event to your server.  
+**Attention**  If you're running in the localhost, enter the URL supported by Ngrok. Otherwise, use the Public IP address:port.
 5) select **Finish** to create the service hook.
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
